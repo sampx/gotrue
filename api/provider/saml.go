@@ -17,14 +17,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/sampx/gotrue/models"
+	"github.com/sampx/gotrue/storage"
 
-	"github.com/netlify/gotrue/conf"
+	"github.com/gobuffalo/uuid"
 	saml2 "github.com/russellhaering/gosaml2"
 	"github.com/russellhaering/gosaml2/types"
 	dsig "github.com/russellhaering/goxmldsig"
-	"github.com/gobuffalo/uuid"
+	"github.com/sampx/gotrue/conf"
 	"golang.org/x/oauth2"
 )
 
@@ -222,9 +222,9 @@ func (ks ConfigX509KeyStore) CreateSigningCert() (*rsa.PrivateKey, []byte, error
 }
 
 func (ks ConfigX509KeyStore) SaveConfig(cert []byte, key *rsa.PrivateKey) error {
-	if uuid.Equal(ks.InstanceID, uuid.Nil) {
-		return nil
-	}
+	//if uuid.Equal(ks.InstanceID, uuid.Nil) {
+	return nil
+	//}
 
 	pemCert := &pem.Block{
 		Type:  "CERTIFICATE",

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/sampx/gotrue/models"
+	"github.com/sampx/gotrue/storage"
 	"github.com/gobuffalo/uuid"
 )
 

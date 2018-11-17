@@ -2,8 +2,8 @@ package mailer
 
 import (
 	"github.com/badoux/checkmail"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
+	"github.com/sampx/gotrue/conf"
+	"github.com/sampx/gotrue/models"
 	"github.com/netlify/mailme"
 )
 

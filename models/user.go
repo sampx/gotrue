@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gobuffalo/pop"
-	"github.com/netlify/gotrue/storage"
-	"github.com/netlify/gotrue/storage/namespace"
+	"github.com/sampx/gotrue/storage"
+	"github.com/sampx/gotrue/storage/namespace"
 	"github.com/pkg/errors"
 	"github.com/gobuffalo/uuid"
 	"golang.org/x/crypto/bcrypt"

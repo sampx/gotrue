@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
-	"github.com/netlify/gotrue/storage/test"
+	"github.com/sampx/gotrue/conf"
+	"github.com/sampx/gotrue/models"
+	"github.com/sampx/gotrue/storage"
+	"github.com/sampx/gotrue/storage/test"
 	"github.com/gobuffalo/uuid"
 	"github.com/stretchr/testify/require"
 )

@@ -223,7 +223,7 @@ func (ks ConfigX509KeyStore) CreateSigningCert() (*rsa.PrivateKey, []byte, error
 
 func (ks ConfigX509KeyStore) SaveConfig(cert []byte, key *rsa.PrivateKey) error {
 	//if uuid.Equal(ks.InstanceID, uuid.Nil) {
-	return nil
+	//return nil
 	//}
 
 	pemCert := &pem.Block{
